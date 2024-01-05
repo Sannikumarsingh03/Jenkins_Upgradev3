@@ -35,10 +35,10 @@ public class TestGreeter {
     assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
   }
 
-  @Test
-  public void Failed() {
-    assertTrue(true);
-  }
+  // @Test
+  // public void Failed() {
+  //   assertTrue(true);
+  // }
 
   @Test
   public void greetShouldIncludeGreetingMessage() {
